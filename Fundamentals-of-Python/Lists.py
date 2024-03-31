@@ -40,3 +40,27 @@ print(items)
 items[1:1] = ["Test1", "Test2"]
 
 print(items)
+
+## Sorting Lists
+
+items = ["Roger" ,"syd","Quincy", "ali", "Kadir"]
+
+items.sort()
+print(items)
+
+items.sort(key=str.lower)
+print(items)
+
+items = ["Roger" ,"syd","Quincy", "ali", "Kadir"]
+
+itemscopy = items[:]
+items.sort(key=str.lower)
+
+print(items)
+print(itemscopy)
+
+items = ["Roger" ,"syd","Quincy", "ali", "Kadir"]
+
+sorted(items, key=str.lower)
+
+print(items)
