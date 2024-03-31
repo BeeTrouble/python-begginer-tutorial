@@ -39,3 +39,14 @@ print("aLi ersoy".title())
 print("ersoy".islower())
 print(len(name))
 print("li" in name)
+
+## Escaping Characters
+
+name1 = 'Ka"\dir'
+print(name1)
+
+name2 = 'Ka"\ndir'
+print(name2)
+
+name3 = 'Ka\\dir'
+print(name3)
