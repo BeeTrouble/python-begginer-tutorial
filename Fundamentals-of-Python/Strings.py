@@ -1,3 +1,5 @@
+## String
+
 "Ali"
 'Ali'
 name = "Ali"
@@ -11,3 +13,29 @@ print("""Ali is
 
 years old
 """)
+
+## String Methods
+
+# isalpha()
+# isalnum()
+# isdecimal()
+# lower()
+# islower()
+# upper()
+# isupper()
+# title()
+# startsswith()
+# endswith()
+# replace()
+# split()
+# strip()
+# join()
+# find()
+
+name = "Ali"
+print("ali".upper())
+print("ALI".lower())
+print("aLi ersoy".title())
+print("ersoy".islower())
+print(len(name))
+print("li" in name)
