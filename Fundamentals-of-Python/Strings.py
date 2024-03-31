@@ -50,3 +50,19 @@ print(name2)
 
 name3 = 'Ka\\dir'
 print(name3)
+
+## String Characters & Slicing
+
+name4 = 'John'
+
+print(name4[1])  # o
+print(name4[3])  # n
+print(name4[-3]) # o
+
+print(name4[1:2]) # o
+
+sentence = ' I love swimming'
+
+print(sentence[1:5])    # I lo
+print(sentence[3:])     # love swimming
+print(sentence[:3:-1])  # gnimmiws evo
