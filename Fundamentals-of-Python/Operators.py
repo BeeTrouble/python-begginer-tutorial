@@ -51,3 +51,12 @@ print( False and 'hey') ## False
 print('hi' and 'hey') ## 'hey'
 print([] and False) ## []
 print(False and []) ## False
+
+## Bitwise Operators
+
+# &  performs AND
+# |  perfroms OR
+# ^  performs XOR
+# ~  perform NOT
+# >> performs shift right operation
+# << performs shift left operation
