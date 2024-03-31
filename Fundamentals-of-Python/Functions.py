@@ -37,3 +37,21 @@ def hello(name):
     return name, "Kaan", 8
 
 print(hello("Syd"))
+
+
+## Variable Scope
+
+age = 8 
+
+def test():
+    print(age)
+
+print(age) # 8
+test() # 8
+
+def test():
+    age = 8
+    print(age)
+
+print(age)
+test()
