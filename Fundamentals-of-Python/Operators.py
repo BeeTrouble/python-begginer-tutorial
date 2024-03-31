@@ -60,3 +60,8 @@ print(False and []) ## False
 # ~  perform NOT
 # >> performs shift right operation
 # << performs shift left operation
+
+## is & in Operators
+
+# is Idenity Operator
+# in Membership Operator
