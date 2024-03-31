@@ -3,3 +3,6 @@ def get_choices():
     computer_choice = "paper"
 
     return computer_choice
+
+choises = get_choices()
+print(choises)
