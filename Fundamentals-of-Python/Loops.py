@@ -31,3 +31,12 @@ for index, item in enumerate(items):
 items = ["Kadir", "Helen", "Micheal", "Sophie"]
 for index, item in enumerate(items):
     print(index, item)
+
+
+## Break and Continue
+
+items = [1, 2, 3, 4]
+for item in items:
+    if item == 2:
+        continue
+    print(item)
